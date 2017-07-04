@@ -1,0 +1,135 @@
+\newcommand\dbline{\noalign{\vskip 0.10truecm\hrule\vskip 0.05truecm\hrule\vskip 0.10truecm}}
+\newcommand\sgline{\noalign{\vskip 0.10truecm\hrule\vskip 0.10truecm}}
+\newcommand\clineskip{\noalign{\vskip 0.10truecm}}
+\newcommand\myb          {\color{myb}}
+\newcommand\myr          {\color{myr}}
+\newcommand\sigmu        {\upmu}
+\newcommand\obs          {{\rm obs}}
+\newcommand\SPACE[1]{\,{#1}\,}              % small space around
+\newcommand\PM     {\SPACE{\pm}}
+\newcommand\no           {\!\!}
+\newcommand\np           {\no\no}
+\newcommand\nq           {\np\np}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Title page             % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\EQ     {\,{=}\,}
+\def\WW           {{WW}}
+\newcommand{\threelep}{\ensuremath{{\rm 3}{\ell}}}
+\newcommand{\twolep}{\ensuremath{{\rm 2}{\ell}}}
+\newcommand{\fourlep}{\ensuremath{{\rm 4}{\ell}}}
+\newcommand\ggF          {{\rm ggF}}
+\newcommand\VBF          {{\rm VBF}}
+\newcommand{\ptH}{\ensuremath{p_{\mathrm{T}^{H}}}}
+\newcommand{\ptZ}{\ensuremath{p_{\mathrm{T}^{Z}}}}
+\newcommand{\ptjet}{\ensuremath{p_{\mathrm{T}^{\mathrm{jet}}}}}
+\newcommand{\DeltaPhiBoost}{\ensuremath{\Delta \phi_{\mathrm{01}}^{\mathrm{boost}}}}
+\newcommand{\UPD}{**UPDATE** }
+\newcommand{\lumi}{20.3}
+\newcommand{\lumieleven}{4.5}
+\newcommand{\metrel}{\ensuremath{E_{\rm T,rel}^{\rm miss}}}
+\newcommand{\metSTVF}{\ensuremath{E_{\rm T,STVF}^{\rm miss}}}
+\newcommand{\metPhiSTVF}{\ensuremath{E_{\rm T,STVF}^{\rm miss, \phi}}}
+\newcommand{\metnSTVF}{\ensuremath{E_{\rm T,nSTVF}^{\rm miss}}}
+\newcommand{\metTrackHWW}{\ensuremath{E_{\rm T,TrackClj}^{\rm miss}}}
+\newcommand{\metTrackHWWDef}{\ensuremath{E_{\rm T,Track}^{\rm miss}}}
+\newcommand{\mT}{\ensuremath{m_{\rm T}}}
+\newcommand{\mTSTVF}{\ensuremath{m_{\rm T,STVF}}}
+\newcommand{\pTll}{\ensuremath{{\bf p}_{\rm T}^{\ell\ell}}}
+\newcommand{\ptll}{\pTll}
+\newcommand{\dphill}{\ensuremath{\Delta\phi_{\ell\ell}}\xspace}
+\newcommand{\dR}{\ensuremath{\Delta R}}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
+\newcommand{\mjj}{\ensuremath{m_{jj}}\xspace}
+\newcommand{\pTtot}{\ensuremath{{p}_{\rm T}^{\rm tot}}\xspace}
+\newcommand{\lepPtSum}{\ensuremath{|\Sigma{\bf {\pt}^{\rm lep}}|}\xspace}
+\newcommand{\njets}{\ensuremath{N_{\rm jets}}}
+\newcommand{\lhood}{\ensuremath{{\cal L}}}
+\newcommand{\hwwlnln}{\ensuremath{H{\rightarrow\,}WW^{(\ast)}{\rightarrow\,}\ell\nu\ell\nu}}
+%\newcommand{\hww}{\ensuremath{H{\rightarrow\,}WW^{(\ast)}}}
+\newcommand{\hww}{\ensuremath{H{\rightarrow\,}WW^{\ast}}}
+\newcommand{\htautau}{\ensuremath{H{\rightarrow\,}\tau\tau}}
+\newcommand{\whwwlnlnlnpar}{\ensuremath{WH{\rightarrow\,}W(\ell\nu)WW^{(\ast)}{\rightarrow\,\ell\nu\ell\nu\ell\nu} }}
+\newcommand{\whwwlnlnln}{\ensuremath{WH{\rightarrow\,}WWW^{(\ast)}{\rightarrow\,}\ell\nu\ell\nu\ell\nu}}
+\newcommand{\whwwlnlnjjpar}{\ensuremath{WH{\rightarrow\,}W(\ell\nu)WW^{(\ast)}{\rightarrow\,\ell\nu\ell\nu jj} }}
+\newcommand{\whwwjjlnlnpar}{\ensuremath{WH{\rightarrow\,}W(jj)WW^{(\ast)}{\rightarrow\,}{\it j}{\it j}\ell\nu\ell\nu }}
+\newcommand{\zhwwlllnln}{\ensuremath{ZH{\rightarrow\,}ZWW^{(\ast)}{\rightarrow\,}\ell\ell\ell\nu\ell\nu}}
+\newcommand{\zhwwjjlnln}{\ensuremath{ZH{\rightarrow\,}ZWW^{(\ast)}{\rightarrow\,}jj\ell\nu\ell\nu}}
+\newcommand{\wwlnln}{\ensuremath{WW^{(\ast)}{\rightarrow\,}\ell\nu\ell\nu}}
+\newcommand{\WpWm}{\ensuremath{W^{+}W^{-}}}
+\newcommand{\ZeroJet}{\ensuremath{\,H{+}0\,}}% \mathrm{\ jet}}}
+\newcommand{\OneJet}{\ensuremath{\,H{+}1\,}}% \mathrm{\ jet}}}
+\newcommand{\TwoJet}{\ensuremath{\,H{+}2\,}}% \mathrm{\ jet}}}
+
+%\newcommand{\textcolor}[2]{#2}
+
+\newcommand{\dzero} {\rm{d_0}}
+\newcommand{\zzero} {\rm{z_0}}
+\newcommand{\q}{\ensuremath{\tilde{q}_{\rm \mu}}}
+\newcommand{\qz}{\ensuremath{q_{\rm 0}}}
+\newcommand{\wzg}{\ensuremath{WZ/W\gamma^{\ast}}}
+%\newcommand{\wzg}{\ensuremath{W(Z/ \gamma^{\ast})}}
+\newcommand{\zz}{\ensuremath{ZZ^{\ast}}}
+
+% SS-leptons
+\newcommand{\DPhilj}{\ensuremath{\Delta\phi_{\ell_1 {\rm j}}^{\rm min}}\xspace}
+\newcommand{\mljj}{\ensuremath{m_{\ell_1 {\rm jj}}^{\rm min}}\xspace}
+\newcommand{\mlj}{\ensuremath{m_{\ell_1 {\rm j}}^{\rm min}}\xspace}
+\newcommand{\MTLead}{\ensuremath{m_{\rm T}^{\rm Lead}}\xspace}
+\newcommand{\MTLeadSTVF}{\ensuremath{m_{\rm T,STVF}^{\rm Lead}}\xspace}
+\newcommand{\PTSubLead}{\ensuremath{p_{\rm T,Sub Leading Lepton}}\xspace}
+\newcommand{\ptlead}{\ensuremath{p_{\rm T, Leading Lepton}}\xspace}
+
+% Object performance and GSC symbols
+\newcommand{\ptrue}  {\ensuremath{p^\mathrm{truth}}}
+\newcommand{\preco}  {\ensuremath{p^\mathrm{reco}}}
+\newcommand{\pttrue}  {\ensuremath{\pt^\mathrm{truth}}}
+\newcommand{\pttruth} {\ensuremath{\pt^{\mathrm{truth}}}}
+\newcommand{\ptreco}  {\ensuremath{\pt^\mathrm{reco}}}
+\newcommand{\ptavg}  {\ensuremath{\pt^\mathrm{avg}}}
+\newcommand{\DeltaR}   {\ensuremath{\Delta R}}
+\newcommand{\Npv}{\ensuremath{N_{{\rm PV}}}}
+\newcommand{\Response} {\ensuremath{\mathcal{R}}}
+\newcommand{\antikt}{anti-$k_{t}$}
+\newcommand{\etaDet}{\ensuremath{\eta_{\rm det}}}
+\newcommand{\Ecalo}     {\ensuremath{E^{\rm jet}}}
+\newcommand{\Etruth}    {\ensuremath{E^{\rm truth}}}
+\newcommand{\LAr}    {LAr}
+\newcommand{\FCal}   {\texttt{FCal}}
+\newcommand{\Tile}   {Tile}
+\newcommand{\topo} {topo-clust\-er}
+\newcommand{\topos}{topo-clust\-ers}
+\newcommand{\Nsegments}{\ensuremath{N_{\rm segments}}}
+\newcommand{\nTrk}{\ensuremath{n_{\rm trk}}}
+\newcommand{\trackWIDTH}{\it{width_{\rm trk}}}
+\newcommand{\ftile}{\ensuremath{f_{\rm \Tile 0}}}
+\newcommand{\fem}  {\ensuremath{f_{\rm \LAr 3}}}
+\newcommand{\EM}    {{\rm EM}}
+\newcommand{\GCW}   {{\rm GCW}}
+\newcommand{\LCW}   {{\rm LCW}}
+\newcommand{\EMJES} {{\rm EM+JES}}
+\newcommand{\GCWJES}{{\rm GCW+JES}}
+\newcommand{\LCWJES}{{\rm LCW+JES}}
+\newcommand{\ATLAS}   {ATLAS}
+\newcommand{\avgmu}{\ensuremath{\langle\mu\rangle}}
+
+
+% MC generators
+\newcommand{\alpgen}  {{\sc Alpgen}}
+\newcommand{\pythia}  {{\sc Pyth\-ia8}}
+\newcommand{\Perugia} {{\sc Perugia}}
+\newcommand{\geant}   {G{\sc eant}4}
+\newcommand{\atlasfast}{{\sc ATLFAST}2}
+\newcommand{\herwig}  {{\sc Her\-wig}}
+\newcommand{\herwigpp}{{\sc Her\-wig++}}
+\newcommand{\jimmy}   {{\sc Jimmy}}
+\newcommand{\MCAtNLO}{{\sc MC@NLO}}
+\newcommand{\ACERMC}{{\sc ACERMC}}
+\newcommand{\powheg}{{\sc Pow\-heg}}
+\newcommand{\PowHeg}{\powheg}
+\newcommand{\mcatnlo}  {{\sc mc@nlo}}
+\newcommand{\madgraph}  {{\sc MadGraph}}
+\newcommand{\sherpa}  {{\sc Sherpa}}
+\newcommand{\acermc}  {{\sc AcerMC}}
+
