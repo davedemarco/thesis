@@ -1,0 +1,44 @@
+
+From Joe's thesis: 
+
+SM:
+- Standard model, its predictions vs parameters
+- Lagrangian formalism background information, equations of motion
+- Noether's theorem on symmetries as a tool for physics
+- differentiating local and global symmetries
+- gauge theory and local transformations
+- quantum field theory as an example of Lagrangian formalism
+- gauge theories and re-normalizability
+- renormalization and eliminating infinite integrals
+- group generators, hermitian conjugation, hermitian matrices
+- U(1) sufficient to describe leptonic EM
+- massless gauge bosons required in theory, but W and Z are massive!
+- need uncoupled LH and RH helicity fermions for gauge invariance, but parity is violated!
+- Hence...spontaneous symmetry breaking
+- vacuum expectation value and field written as fluctuations about the vev
+- covariant derivative definition and usage
+- EW unification?
+- field strength tensors
+- Goldstone bosons absorbed as degrees of freedom
+- combinations of components of gauge fields give physical fields
+- weak mixing angle
+- Yukawa coupling and fermion masses
+
+Phenomenology:
+- protons in collisions, valence and sea quarks
+- momentum transfer, hard scatter, soft interactions
+- pertubative vs. non-pertubative QCD
+- factorization and renormalization scales
+- parton showering
+- hadronization
+- parton distribution functions
+- hard scatter cross sections
+- Higgs production modes
+- Feynman diagrams, XS measurements
+- Theory uncertainties
+- higher-order radiative corrections
+- pdfs and acceptance efficiences
+- underlying event
+- Higgs decay modes, mass dependance
+- branching ratios
+- narrow width approximation

@@ -1,0 +1,15 @@
+From Joe's thesis: 
+
+- composite objects
+- can reconstruct jets from multiple constituent sources (focus on calorimeter energy deposits)
+- combine energy cells into topological clusters
+- Jet-finding algorithms
+       - infared safety (soft particles affecting jet number)
+       - collinear safety
+       - detector tech (in)dependence
+       - minimising effect on spatial/energy resolution
+       - luminosity stability
+       - calibration ease of use
+       - efficient computing resource use
+- kt, anti-kt and cambridge-aachen algs
+- uses for jet types 
